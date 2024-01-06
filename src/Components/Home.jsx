@@ -27,13 +27,10 @@ export default function Home() {
             My name is Dan.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            I'm a Front-End Developer, Agile Project Manager and an amateur Artist.  I spend my time learning new coding skills and looking for ways to fulfill my creative aspirations.
-            </p>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
             I'm a Front-End Developer with a background in Art & Design, passionate about web design and functionality. I'm also a qualified Scrum Master & Project Manager with over a decade of experience delivering complex change programmes for clients in regulated environments.
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            I'm a driven learner - I believe strongly in continuous self-improvement and spend most of my free time developing my own skills and branching out into new areas.
+            I'm a driven learner - I believe strongly in continuous self-improvement and spend my free time developing my skills and branching out into new areas.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
