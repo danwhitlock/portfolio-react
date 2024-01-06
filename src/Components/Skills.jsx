@@ -54,10 +54,22 @@ const skills = [
         './src/assets/icons8-scrum-64.png',
       },
       {
+        name: 'Version Control',
+        category: 'Soft Skill',
+        imageUrl:
+        './src/assets/icons8-version-control-64.png',
+      },
+      {
         name: 'Project Mgmt',
         category: 'Soft Skill',
         imageUrl:
         './src/assets/icons8-project-plan-64.png',
+      },
+      {
+        name: 'Stakeholder Mgmt',
+        category: 'Soft Skill',
+        imageUrl:
+        './src/assets/icons8-investors-100.png',
       },
   ]
   

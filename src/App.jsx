@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
 import Nav from './Components/Header'
 import Home from './Components/Home'
-// import './Components/ProjectGallery'
+import ProjectGallery from './Components/ProjectGallery'
 // import './Components/Project'
-// import './Components/Contact'
+import Contact from './Components/Contact'
 import Skills from './Components/Skills'
 
 function App() {
@@ -16,6 +16,8 @@ function App() {
         <Routes>
           <Route path="Home" element={<Home />} />
           <Route path="skills" element={<Skills />} />
+          <Route path="projectGallery" element={<ProjectGallery />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>  
     </Router>
   )
