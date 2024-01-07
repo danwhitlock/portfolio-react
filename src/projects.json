@@ -33,5 +33,5 @@
       "href": "#",
       "description":
         "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",  "categories": ["JavaScript", "HTML", "CSS"]
-    },
+    }
   ]
