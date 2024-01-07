@@ -17,7 +17,7 @@ import React from 'react';
                   <img className="h-16 w-16 rounded-full" src={skill.imageUrl} alt="" />
                   <div>
                     <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{skill.name}</h3>
-                    <p className="text-sm font-semibold leading-6 text-indigo-600">{skill.category}</p>
+                    <p className="text-sm font-semibold leading-6 text-blue-600">{skill.category}</p>
                   </div>
                 </div>
               </li>

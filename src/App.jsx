@@ -1,10 +1,9 @@
-import { useState } from 'react'
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
 import Nav from './Components/Header'
 import Home from './Components/Home'
 import ProjectGallery from './Components/ProjectGallery'
-// import './Components/Project'
 import Contact from './Components/Contact'
 import Skills from './Components/Skills'
 import skillsData from './skills.json'

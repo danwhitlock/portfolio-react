@@ -35,7 +35,7 @@ export default function Nav() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <NavLink key={item.name} to={item.to} className="text-sm font-semibold leading-6 text-gray-900">
+              <NavLink key={item.name} to={item.to} className="text-lg font-semibold leading-6 text-gray-900">
                 {item.name}
               </NavLink>
             ))}
@@ -45,7 +45,7 @@ export default function Nav() {
                 href="https://drive.google.com/file/d/13ZEsE_ui5nMMAkzYGFSajcTZodyJPkLb/view?usp=sharing"
                 target='_blank'
                 download="Daniel-Whitlock-CV.pdf"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 custom-button"
               >
                 My CV
               </a>
