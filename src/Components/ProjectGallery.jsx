@@ -6,11 +6,7 @@ const project = [
       href: '#',
       description:
         'A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!',
-      categories: [
-        { title: 'JavaScript', href: '#' },
-        { title: 'HTML', href: '#' },
-        { title: 'CSS', href: '#' }
-      ]
+        categories: ['JavaScript', 'HTML', 'CSS']
     },
     {
       id: 2,
@@ -19,11 +15,7 @@ const project = [
       href: '#',
       description:
         'A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!',
-      categories: [
-        { title: 'JavaScript', href: '#' },
-        { title: 'HTML', href: '#' },
-        { title: 'CSS', href: '#' }
-      ]
+      categories: ['JavaScript', 'HTML', 'CSS']
     },
     {
       id: 3,
@@ -32,11 +24,7 @@ const project = [
       href: '#',
       description:
         'A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!',
-      categories: [
-        { title: 'JavaScript', href: '#' },
-        { title: 'HTML', href: '#' },
-        { title: 'CSS', href: '#' }
-      ]
+        categories: ['JavaScript', 'HTML', 'CSS']
     },
     {
       id: 4,
@@ -45,11 +33,7 @@ const project = [
       href: '#',
       description:
         'A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!',
-      categories: [
-        { title: 'JavaScript', href: '#' },
-        { title: 'HTML', href: '#' },
-        { title: 'CSS', href: '#' }
-      ]
+categories: ['JavaScript', 'HTML', 'CSS']
     },
   ]
   
@@ -71,13 +55,12 @@ const project = [
                 </div>
                 <div className="flex items-center gap-x-4 text-xs">
                   {project.categories.map((category) => (
-                    <a
-                    key={category.title}  
-                    href={category.href}
-                      className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                    <span
+                    key={category}  
+                    className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                     >
-                      {category.title}
-                    </a>
+                      {category}
+                    </span>
                   ))}
 
                 </div>
