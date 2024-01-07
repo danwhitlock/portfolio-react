@@ -71,14 +71,14 @@
       },
       {
         "id": 11,
-        "name": "Project Mgmt",
+        "name": "Project Management",
         "category": "Soft Skill",
         "imageUrl":
         "./src/assets/icons8-project-plan-64.png"
       },
       {
         "id": 12,
-        "name": "Stakeholder Mgmt",
+        "name": "Stakeholder Management",
         "category": "Soft Skill",
         "imageUrl":
         "./src/assets/icons8-investors-100.png"
