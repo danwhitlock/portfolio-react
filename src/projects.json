@@ -1,53 +1,62 @@
 [
     {
       "id": 1,
-      "imageSrc": "./src/assets/ProjectTwo.png",
-      "title": "Rock, Paper, Scissors",
-      "href": "#",
+      "imageSrc": "./src/assets/portfolio-react.png",
+      "title": "React Portfolio Site",
       "description":
-        "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",
-      "categories": ["JavaScript", "HTML", "CSS"]
+        "This portfolio site, built with React and Tailwind.",
+      "categories": ["React", "Tailwind", "JavaScript"],
+      "repo": "https://github.com/danwhitlock/portfolio-react",
+      "live": "https://www.danwhitlock.me/"
     },
     {
       "id": 2,
-      "imageSrc": "./src/assets/ProjectTwo.png",
+      "imageSrc": "./src/assets/rps.png",
       "title": "Rock, Paper, Scissors",
-      "href": "#",
       "description":
         "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",
-      "categories": ["JavaScript", "HTML", "CSS"]
+      "categories": ["JavaScript", "HTML", "CSS"],
+      "repo": "https://github.com/danwhitlock/rock_paper_scissors",
+      "live": "https://danwhitlock.github.io/rock_paper_scissors/"
     },
     {
       "id": 3,
-      "imageSrc": "./src/assets/ProjectTwo.png",
-      "title": "Rock, Paper, Scissors",
-      "href": "#",
+      "imageSrc": "./src/assets/js-quiz.png",
+      "title": "JavaScript Quiz",
       "description":
-        "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",
-      "categories": ["JavaScript", "HTML", "CSS"]
+        "A quiz written in JavaScript which dynamically shows Q&As on the page and keeps a record of high scores using local storage.",
+      "categories": ["JavaScript", "Local Storage"],
+      "repo": "https://github.com/danwhitlock/javascript-quiz",
+      "live": "https://danwhitlock.github.io/javascript-quiz/"
     },
     {
       "id": 4,
-      "imageSrc": "./src/assets/ProjectTwo.png",
-      "title": "Rock, Paper, Scissors",
-      "href": "#",
+      "imageSrc": "./src/assets/readme-gen.gif",
+      "title": "README Generator",
       "description":
-        "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",  "categories": ["JavaScript", "HTML", "CSS"]
+        "A node app which will automatically create a professional README file from information prompts and terminal input from a user.",
+      "categories": ["Node", "JavaScript"],
+      "repo": "https://github.com/danwhitlock/readme-generator",
+      "live": "https://github.com/danwhitlock/readme-generator"
     },
     {
-        "id": 5,
-        "imageSrc": "./src/assets/ProjectTwo.png",
-        "title": "Rock, Paper, Scissors",
-        "href": "#",
-        "description":
-          "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",  "categories": ["JavaScript", "HTML", "CSS"]
+      "id": 5,
+      "imageSrc": "./src/assets/weather-dashboard.png",
+      "title": "Weather Forecast Dashboard",
+      "description":
+          "A weather forecasting dashboard utilising third-party APIs to allow users to search for current and future weather forecasts. Local storage is used to retain a history of previous searches which can be repeated.",
+      "categories": ["APIs", "JavaScript"],
+      "repo": "https://github.com/danwhitlock/weather-dashboard",
+      "live": "https://danwhitlock.github.io/weather-dashboard/"
       },
       {
-        "id": 6,
-        "imageSrc": "./src/assets/ProjectTwo.png",
-        "title": "Rock, Paper, Scissors",
-        "href": "#",
-        "description":
-          "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",  "categories": ["JavaScript", "HTML", "CSS"]
+      "id": 6,
+      "imageSrc": "./src/assets/pupventure.png",
+      "title": "PupVenture!",
+      "description":
+          "A collaborative project to create a website which allows for dog-friendly locations to be searched for, information to be returned dynamically via APIs and saved for future reference.",
+      "categories": ["APIs", "JavaScript", "Bootstrap"],
+      "repo": "https://github.com/danwhitlock/dog-friendly-locations",
+      "live": "https://danwhitlock.github.io/dog-friendly-locations/"
       }
   ]
