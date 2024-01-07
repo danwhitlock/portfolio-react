@@ -29,19 +29,23 @@ export default function Home() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/dan-whitlock/"
+                target="_blank"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 LinkedIn
               </a>
               <a
-                href="#"
+                href="https://drive.google.com/file/d/13ZEsE_ui5nMMAkzYGFSajcTZodyJPkLb/view?usp=sharing"
+                target='_blank'
+                download="Daniel-Whitlock-CV.pdf"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 CV
               </a>
               <a
-                href="#"
+                href="https://github.com/danwhitlock"
+                target="_blank"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 GitHub
