@@ -1,79 +1,6 @@
-const skills = [
-    {
-      name: 'HTML',
-      category: 'Language',
-      imageUrl:
-        './src/assets/icons8-html.svg',
-    },
-    {
-        name: 'CSS',
-        category: 'Language',
-        imageUrl:
-        './src/assets/icons8-css.svg',
-      },
-      {
-        name: 'JavaScript',
-        category: 'Language',
-        imageUrl:
-        './src/assets/icons8-javascript.svg',
-      },
-      {
-        name: 'Bootstrap',
-        category: 'Framework',
-        imageUrl:
-        './src/assets/icons8-bootstrap.svg',
-      },
-      {
-        name: 'Tailwind',
-        category: 'Framework',
-        imageUrl:
-        './src/assets/icons8-tailwind-css.svg',
-      },
-      {
-        name: 'jQuery',
-        category: 'Framework',
-        imageUrl:
-        './src/assets/icons8-jquery.svg',
-      },
-      {
-        name: 'React',
-        category: 'Framework',
-        imageUrl:
-        './src/assets/icons8-react-js.svg',
-      },
-      {
-        name: 'Node',
-        category: 'Environment',
-        imageUrl:
-        './src/assets/icons8-node-js.svg',
-      },
-      {
-        name: 'Scrum/Agile',
-        category: 'Soft Skill',
-        imageUrl:
-        './src/assets/icons8-scrum-64.png',
-      },
-      {
-        name: 'Version Control',
-        category: 'Soft Skill',
-        imageUrl:
-        './src/assets/icons8-version-control-64.png',
-      },
-      {
-        name: 'Project Mgmt',
-        category: 'Soft Skill',
-        imageUrl:
-        './src/assets/icons8-project-plan-64.png',
-      },
-      {
-        name: 'Stakeholder Mgmt',
-        category: 'Soft Skill',
-        imageUrl:
-        './src/assets/icons8-investors-100.png',
-      },
-  ]
+import React from 'react';
   
-  export default function Skills() {
+  export default function Skills({skills}) {
     return (
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
@@ -85,7 +12,7 @@ const skills = [
           </div>
           <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-3 sm:gap-y-16 xl:col-span-2">
             {skills.map((skill) => (
-              <li key={skill.name}>
+              <li key={skill.id}>
                 <div className="flex items-center gap-x-6">
                   <img className="h-16 w-16 rounded-full" src={skill.imageUrl} alt="" />
                   <div>

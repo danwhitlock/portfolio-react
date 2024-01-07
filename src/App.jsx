@@ -7,6 +7,7 @@ import ProjectGallery from './Components/ProjectGallery'
 // import './Components/Project'
 import Contact from './Components/Contact'
 import Skills from './Components/Skills'
+import skillsData from './skills.json'
 
 function App() {
 
@@ -16,7 +17,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="Home" element={<Home />} />
-          <Route path="skills" element={<Skills />} />
+          <Route path="skills" element={<Skills 
+            skills={skillsData}
+          />} />
           <Route path="projectGallery" element={<ProjectGallery />} />
           <Route path="contact" element={<Contact />} />
         </Routes>  
