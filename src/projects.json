@@ -33,5 +33,21 @@
       "href": "#",
       "description":
         "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",  "categories": ["JavaScript", "HTML", "CSS"]
-    }
+    },
+    {
+        "id": 5,
+        "imageSrc": "./src/assets/ProjectTwo.png",
+        "title": "Rock, Paper, Scissors",
+        "href": "#",
+        "description":
+          "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",  "categories": ["JavaScript", "HTML", "CSS"]
+      },
+      {
+        "id": 6,
+        "imageSrc": "./src/assets/ProjectTwo.png",
+        "title": "Rock, Paper, Scissors",
+        "href": "#",
+        "description":
+          "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",  "categories": ["JavaScript", "HTML", "CSS"]
+      }
   ]
