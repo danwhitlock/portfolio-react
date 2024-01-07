@@ -2,11 +2,15 @@ import React from 'react'
 
 export default function Project({project}) {
     return (
-        <article key={project.id} className="flex max-w-xl flex-col items-start justify-between">
+        <article key={project.id} className="flex max-w-xl flex-col items-center mx-auto gap-x-4">
         <div className="flex items-center gap-x-4 text-xs">
-          <img src={project.imageSrc} alt={project.title}></img>
+          <img 
+            src={project.imageSrc}
+            alt={project.title}
+            className="h-48 w-96 object-cover">
+            </img>
         </div>
-        <div className="flex items-center gap-x-4 text-xs">
+        <div className="flex items-center gap-x-4 text-xs mt-4">
           {project.categories.map((category) => (
             <span
             key={category}  
@@ -17,7 +21,7 @@ export default function Project({project}) {
           ))}
 
         </div>
-        <div className="group relative">
+        <div className="group relative h-32 mt-4">
           <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
               <span className="absolute inset-0" />
               {project.title}

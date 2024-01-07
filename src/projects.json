@@ -44,7 +44,7 @@
       "imageSrc": "./src/assets/weather-dashboard.png",
       "title": "Weather Forecast Dashboard",
       "description":
-          "A weather forecasting dashboard utilising third-party APIs to allow users to search for current and future weather forecasts. Local storage is used to retain a history of previous searches which can be repeated.",
+          "A weather forecasting dashboard utilising third-party APIs for current/future weather forecasts. Local storage retains a history of repeatable previous searches.",
       "categories": ["APIs", "JavaScript"],
       "repo": "https://github.com/danwhitlock/weather-dashboard",
       "live": "https://danwhitlock.github.io/weather-dashboard/"
@@ -54,7 +54,7 @@
       "imageSrc": "./src/assets/pupventure.png",
       "title": "PupVenture!",
       "description":
-          "A collaborative project to create a website which allows for dog-friendly locations to be searched for, information to be returned dynamically via APIs and saved for future reference.",
+          "A collaborative project to create a website which allows for dog-friendly locations to be searched for, returned dynamically via APIs and saved for future reference.",
       "categories": ["APIs", "JavaScript", "Bootstrap"],
       "repo": "https://github.com/danwhitlock/dog-friendly-locations",
       "live": "https://danwhitlock.github.io/dog-friendly-locations/"
