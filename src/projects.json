@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "imageSrc": "./src/assets/ProjectTwo.png",
+      "title": "Rock, Paper, Scissors",
+      "href": "#",
+      "description":
+        "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",
+      "categories": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": 2,
+      "imageSrc": "./src/assets/ProjectTwo.png",
+      "title": "Rock, Paper, Scissors",
+      "href": "#",
+      "description":
+        "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",
+      "categories": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": 3,
+      "imageSrc": "./src/assets/ProjectTwo.png",
+      "title": "Rock, Paper, Scissors",
+      "href": "#",
+      "description":
+        "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",
+      "categories": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": 4,
+      "imageSrc": "./src/assets/ProjectTwo.png",
+      "title": "Rock, Paper, Scissors",
+      "href": "#",
+      "description":
+        "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",  "categories": ["JavaScript", "HTML", "CSS"]
+    },
+  ]
