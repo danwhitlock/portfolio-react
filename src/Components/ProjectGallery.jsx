@@ -2,6 +2,7 @@ import React from "react";
 import Project from "./Project";
 import projectsData from "../projects.json";
 
+// Project Gallery component, renders the individual Projects 
 export default function ProjectGallery() {
   return (
     <div className="bg-white py-24 sm:py-32">

@@ -26,6 +26,8 @@ export default function Nav() {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
+
+            {/* Logo */}
             <img src="/DW.png" className="w-24"></img>
           </div>
           <div className="flex lg:hidden">
@@ -38,6 +40,8 @@ export default function Nav() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
+          
+          {/* Build Nav Links */}
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <NavLink
@@ -49,6 +53,9 @@ export default function Nav() {
               </NavLink>
             ))}
           </div>
+
+          {/* CV Link */}
+
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
               href="https://drive.google.com/file/d/13ZEsE_ui5nMMAkzYGFSajcTZodyJPkLb/view?usp=sharing"
@@ -60,6 +67,9 @@ export default function Nav() {
             </a>
           </div>
         </nav>
+
+        {/* Build mobile (small screen) NavBar */}
+
         <Dialog
           as="div"
           className="lg:hidden"

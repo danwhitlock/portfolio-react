@@ -1,5 +1,6 @@
 import React from "react";
 
+// Function to create Skills component using data from skills.json
 export default function Skills({ skills }) {
   return (
     <div className="bg-white py-24 sm:py-32">

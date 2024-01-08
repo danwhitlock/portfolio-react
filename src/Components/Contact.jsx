@@ -1,5 +1,6 @@
 import React from "react";
 
+// Customised contact Form using tailwind template and formspree
 export default function Contact() {
   return (
     <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">

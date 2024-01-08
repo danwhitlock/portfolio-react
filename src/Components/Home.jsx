@@ -1,6 +1,7 @@
 import React from "react";
 import "../index.css";
 
+// Function to build Home/About component
 export default function Home() {
   return (
     <div className="bg-white">
@@ -26,6 +27,9 @@ export default function Home() {
               self-improvement and spend my free time developing my skills and
               branching out into new areas.
             </p>
+
+            {/* Buttons/Links */}
+
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="https://www.linkedin.com/in/dan-whitlock/"

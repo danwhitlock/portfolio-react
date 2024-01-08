@@ -1,7 +1,11 @@
 import React from "react";
 import "../index.css";
 
+// Function to create Project component using data from projects.json
+
 export default function Project({ project }) {
+  
+  // If statement ensures that the 'live version' buttons are only added for the projects which have live versions
   if (project.title !== "README Generator") {
     return (
       <article
