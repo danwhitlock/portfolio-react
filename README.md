@@ -14,7 +14,7 @@
    - [Questions](#Questions)
 
   ## Installation
-  N/A
+  Run npm install to ensure the required dependencies are in place
   
   ## Usage
   N/A
