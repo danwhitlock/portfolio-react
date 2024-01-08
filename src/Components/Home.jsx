@@ -9,7 +9,7 @@ export default function Home() {
           <div className="text-center justify-items-center">
             <img
               className="mb-6 w-28 h-28 mx-auto"
-              src="./src/assets/dan.png"
+              src="/dan.png"
             ></img>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               My name is Dan.

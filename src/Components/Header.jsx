@@ -26,7 +26,7 @@ export default function Nav() {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <img src="./src/assets/dw.png" className="w-24"></img>
+            <img src="/DW.png" className="w-24"></img>
           </div>
           <div className="flex lg:hidden">
             <button
@@ -69,7 +69,7 @@ export default function Nav() {
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <img src="./src/assets/dw.png" className="w-24"></img>
+              <img src="/DW.png" className="w-24"></img>
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"

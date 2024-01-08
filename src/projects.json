@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "imageSrc": "./src/assets/portfolio-react.png",
+      "imageSrc": "/portfolio-react.png",
       "title": "React Portfolio Site",
       "description":
         "This portfolio site, built with React and Tailwind.",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "imageSrc": "./src/assets/rps.png",
+      "imageSrc": "/rps.png",
       "title": "Rock, Paper, Scissors",
       "description":
         "A game of rock, paper, scissors played in the browser against the computer. The first to five points wins!",
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "imageSrc": "./src/assets/js-quiz.png",
+      "imageSrc": "/js-quiz.png",
       "title": "JavaScript Quiz",
       "description":
         "A quiz written in JavaScript which dynamically shows Q&As on the page and keeps a record of high scores using local storage.",
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "imageSrc": "./src/assets/readme-gen.gif",
+      "imageSrc": "/readme-gen.gif",
       "title": "README Generator",
       "description":
         "A node app which will automatically create a professional README file from information prompts and terminal input from a user.",
@@ -41,7 +41,7 @@
     },
     {
       "id": 5,
-      "imageSrc": "./src/assets/weather-dashboard.png",
+      "imageSrc": "/weather-dashboard.png",
       "title": "Weather Forecast Dashboard",
       "description":
           "A weather forecasting dashboard utilising third-party APIs for current/future weather forecasts. Local storage retains a history of repeatable previous searches.",
@@ -51,7 +51,7 @@
       },
       {
       "id": 6,
-      "imageSrc": "./src/assets/pupventure.png",
+      "imageSrc": "/pupventure.png",
       "title": "PupVenture!",
       "description":
           "A collaborative project to create a website which allows for dog-friendly locations to be searched for, returned dynamically via APIs and saved for future reference.",

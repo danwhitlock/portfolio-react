@@ -4,83 +4,83 @@
         "name": "HTML",
         "category": "Language",
         "imageUrl":
-            "./src/assets/icons8-html.svg"
+            "/icons8-html.svg"
     },
     {
         "id": 2,
         "name": "CSS",
         "category": "Language",
         "imageUrl":
-        "./src/assets/icons8-css.svg"
+        "/icons8-css.svg"
       },
       {
         "id": 3,
         "name": "JavaScript",
         "category": "Language",
         "imageUrl":
-        "./src/assets/icons8-javascript.svg"
+        "/icons8-javascript.svg"
       },
       {
         "id": 4,
         "name": "Bootstrap",
         "category": "Framework",
         "imageUrl":
-        "./src/assets/icons8-bootstrap.svg"
+        "/icons8-bootstrap.svg"
       },
       {
         "id": 5,
         "name": "Tailwind",
         "category": "Framework",
         "imageUrl":
-        "./src/assets/icons8-tailwind-css.svg"
+        "/icons8-tailwind-css.svg"
       },
       {
         "id": 6,
         "name": "jQuery",
         "category": "Framework",
         "imageUrl":
-        "./src/assets/icons8-jquery.svg"
+        "/icons8-jquery.svg"
       },
       {
         "id": 7,
         "name": "React",
         "category": "Framework",
         "imageUrl":
-        "./src/assets/icons8-react-js.svg"
+        "/icons8-react-js.svg"
       },
       {
         "id": 8,
         "name": "Node",
         "category": "Environment",
         "imageUrl":
-        "./src/assets/icons8-node-js.svg"
+        "/icons8-node-js.svg"
       },
       {
         "id": 9,
         "name": "Scrum/Agile",
         "category": "Soft Skill",
         "imageUrl":
-        "./src/assets/icons8-scrum-64.png"
+        "/icons8-scrum-64.png"
       },
       {
         "id": 10,
         "name": "Version Control",
         "category": "Soft Skill",
         "imageUrl":
-        "./src/assets/icons8-version-control-64.png"
+        "/icons8-version-control-64.png"
       },
       {
         "id": 11,
         "name": "Project Management",
         "category": "Soft Skill",
         "imageUrl":
-        "./src/assets/icons8-project-plan-64.png"
+        "/icons8-project-plan-64.png"
       },
       {
         "id": 12,
         "name": "Stakeholder Management",
         "category": "Soft Skill",
         "imageUrl":
-        "./src/assets/icons8-investors-100.png"
+        "/icons8-investors-100.png"
       }
   ]
