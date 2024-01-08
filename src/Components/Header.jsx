@@ -28,6 +28,7 @@ export default function Nav() {
           <div className="flex lg:flex-1">
 
             {/* Logo */}
+            
             <img src="/DW.png" className="w-24"></img>
           </div>
           <div className="flex lg:hidden">
@@ -40,8 +41,9 @@ export default function Nav() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          
+
           {/* Build Nav Links */}
+
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <NavLink
